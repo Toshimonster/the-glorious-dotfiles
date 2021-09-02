@@ -109,15 +109,18 @@ element {
 }
 
 element-icon {
+	background-color: @transparent;
 	size: 72px;
 	border: 0;
 }
 
 element-text {
+	background-color: @transparent;
 	expand: true;
 	horizontal-align: 0.5;
 	vertical-align: 0.5;
 	margin: 0 10px 0 10px;
+	text-color: @foreground;
 }
 
 element normal.urgent,
